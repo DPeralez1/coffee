@@ -35,8 +35,11 @@ def order_item():
             sys.exit("Later!")
 
 def menu(filename):
+    # open to read csv file
     with open(filename) as csvfile:
+        # read the csv file
         reader = csv.reader(csvfile)
+        # converting csv data into list of rows
         data = list(reader)
 
     print(tabulate(data, headers="firstrow", tablefmt="grid"))
