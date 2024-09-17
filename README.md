@@ -2,6 +2,8 @@
 
 ## Overview
 
+Just having fun while learning Python and wanted to create this where you receive an Iced Americano no matter what you order. 
+
 The Menu Ordering System is a simple command-line application that allows users to view a menu, place an order, and decide if they want to order more. The application reads menu data from a CSV file and uses the `tabulate` library to format and display the menu in a grid format.
 
 ## Features
