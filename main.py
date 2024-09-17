@@ -32,7 +32,7 @@ def order_item():
         else:
             print("***********************************")
             print()
-            sys.exit("Later!")
+            sys.exit("Wait! Your forgot your Ice Americano!")
 
 def menu(filename):
     # open to read csv file
